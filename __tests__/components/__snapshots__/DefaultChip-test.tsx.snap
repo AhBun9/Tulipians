@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/DefaultChip test DefaultChip component 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#e0e0e0",
+      },
+      undefined,
+      {
+        "borderRadius": 16,
+      },
+      undefined,
+    ]
+  }
+>
+  Test Text
+</View>
+`;

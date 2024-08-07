@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/SnackDialog test SnackDialog component 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    [
+      {
+        "backgroundColor": "black",
+        "bottom": 0,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      },
+      {
+        "backgroundColor": "transparent",
+        "opacity": 1,
+        "zIndex": 2,
+      },
+    ]
+  }
+>
+  <View
+    collapsable={false}
+    deviceHeight={null}
+    deviceWidth={null}
+    forwardedRef={[Function]}
+    hideModalContentWhileAnimating={true}
+    onBackdropPress={[Function]}
+    onModalHide={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    onMoveShouldSetResponder={[Function]}
+    onMoveShouldSetResponderCapture={[Function]}
+    onResponderEnd={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderReject={[Function]}
+    onResponderRelease={[Function]}
+    onResponderStart={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    onStartShouldSetResponderCapture={[Function]}
+    panResponderThreshold={4}
+    pointerEvents="box-none"
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    statusBarTranslucent={false}
+    style={
+      {
+        "flex": 1,
+        "justifyContent": "flex-end",
+        "left": 0,
+        "margin": 37.5,
+        "top": 0,
+        "transform": [
+          {
+            "translateY": 1334,
+          },
+        ],
+      }
+    }
+    supportedOrientations={
+      [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeDirection={
+      [
+        "left",
+        "right",
+        "down",
+      ]
+    }
+    swipeThreshold={50}
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        {
+          "paddingBottom": 0,
+        }
+      }
+    >
+      <RCTSafeAreaView>
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "#ffffff",
+                "borderRadius": 4,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "backgroundColor": "orange",
+              }
+            }
+          />
+        </View>
+      </RCTSafeAreaView>
+    </View>
+  </View>
+</View>
+`;

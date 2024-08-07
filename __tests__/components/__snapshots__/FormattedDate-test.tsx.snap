@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/FormattedDate test FormattedDate component 1`] = `
+<Text
+  dispatch={[Function]}
+  style={
+    [
+      {
+        "color": "#818181",
+      },
+      undefined,
+      undefined,
+    ]
+  }
+>
+  Sun, 20 Dec 2020
+</Text>
+`;
+
+exports[`components/FormattedDate test FormattedDate component: check nested 1`] = `
+[
+  <Text
+    style={
+      [
+        {
+          "color": "#818181",
+        },
+        undefined,
+        {
+          "color": "orange",
+        },
+      ]
+    }
+  >
+    <Text
+      dispatch={[Function]}
+      style={
+        [
+          {
+            "color": "#818181",
+          },
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      Sun, 20 Dec 2020
+    </Text>
+  </Text>,
+  <Text
+    style={
+      [
+        {
+          "color": "#818181",
+        },
+        undefined,
+        {
+          "color": "orange",
+        },
+      ]
+    }
+  >
+    <Text
+      dispatch={[Function]}
+      style={
+        [
+          undefined,
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      Sun, 20 Dec 2020
+    </Text>
+     to 
+    <Text
+      dispatch={[Function]}
+      style={
+        [
+          undefined,
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      Mon, 21 Dec 2020
+    </Text>
+  </Text>,
+]
+`;
+
+exports[`components/FormattedDate test FormattedDate component: check string 1`] = `
+<Text
+  dispatch={[Function]}
+  style={
+    [
+      {
+        "color": "#818181",
+      },
+      undefined,
+      undefined,
+    ]
+  }
+>
+  Test
+</Text>
+`;
+
+exports[`components/FormattedDate test FormattedDate component: check undefined 1`] = `
+<Text
+  dispatch={[Function]}
+  style={
+    [
+      {
+        "color": "#818181",
+      },
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;
